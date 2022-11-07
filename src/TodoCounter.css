@@ -1,0 +1,118 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-image: url('https://previews.123rf.com/images/oatstocker/oatstocker1709/oatstocker170900196/85419461-libreta-l%C3%A1piz-con-el-reloj-a-bordo-background-using-fondo-de-pantalla-o-para-la-educaci%C3%B3n-foto-de-ne.jpg');
+
+}
+
+.container {
+    max-width: 500px;
+    min-width: 400px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 20px 20px 50px 10px rgb(100, 43, 235);
+    border-radius: 100px 15px 100px 15px;
+    background-color: rgb(245, 245, 250);
+    opacity: 0.90;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.button {
+
+    cursor: pointer;
+    border: 1px solid #0099CC;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    background: transparent;
+    color: #0099CC;
+    fill: #fff;
+    padding: 5px;
+    width: 200px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #2F96B4 !important;
+    background-image: -moz-linear-gradient(center top, #2F96B4, #2F96B4);
+    -webkit-transition-duration: 0.4s;
+}
+
+.search {
+    outline: none;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    
+}
+
+.search:focus {
+    box-shadow: 0 0 5px #2F96B4;
+    border: 1px solid #2F96B4;
+}
+
+
+.section li{
+    width: 80%;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #b9ebfc;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+
+.bx-task{
+    position: relative;
+    left: 5px;
+    padding-right: 20px;
+    color: rgb(0, 162, 255);
+  
+}
+.bxs-trash{
+
+    position: relative;
+    left: 20%;
+    color: red;
+}
+
+
+.section li:hover{
+    background-color: aqua;
+    width: 80%;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #0099CC;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section li i{
+ font-weight: bold;
+ font-size: 30px;
+}
+
+
+.center{
+    text-align: center;
+}
