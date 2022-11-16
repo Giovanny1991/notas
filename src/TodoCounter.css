@@ -5,7 +5,8 @@
 
 body {
     background-image: url('https://previews.123rf.com/images/oatstocker/oatstocker1709/oatstocker170900196/85419461-libreta-l%C3%A1piz-con-el-reloj-a-bordo-background-using-fondo-de-pantalla-o-para-la-educaci%C3%B3n-foto-de-ne.jpg');
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -39,8 +40,8 @@ h2 {
     padding: 0.25rem 0.5rem;
     background: transparent;
     color: #0099CC;
-    fill: #fff;
-    padding: 5px;
+    /* fill: #fff; */
+  
     width: 200px;
 
 }
@@ -76,22 +77,23 @@ h2 {
     border: 1px solid #b9ebfc;
     border-radius: 10px;
     cursor: pointer;
-    text-align: left;
+    display: flex;
+    justify-content: space-around;
 }
 
 
 
 .bx-task{
-    position: relative;
-    left: 5px;
-    padding-right: 20px;
+    /* position: relative;
+    left: 5px; */
+    /* padding-right: 20px; */
     color: rgb(0, 162, 255);
-  
 }
-.bxs-trash{
 
+.bxs-trash{
+/* 
     position: relative;
-    left: 20%;
+    left: 20%; */
     color: red;
 }
 
