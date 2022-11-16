@@ -1,6 +1,6 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
 
 body {
@@ -41,7 +41,7 @@ h2 {
     background: transparent;
     color: #0099CC;
     /* fill: #fff; */
-  
+
     width: 200px;
 
 }
@@ -60,7 +60,7 @@ h2 {
     padding: 10px;
     border: 1px solid #DDDDDD;
     border-radius: 10px;
-    
+
 }
 
 .search:focus {
@@ -69,52 +69,52 @@ h2 {
 }
 
 
-.section li{
+.section li {
     width: 80%;
     list-style: none;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
     border: 1px solid #b9ebfc;
     border-radius: 10px;
-    cursor: pointer;
+
     display: flex;
     justify-content: space-around;
 }
 
+li button {
+    cursor: pointer;
 
-
-.bx-task{
-    /* position: relative;
-    left: 5px; */
-    /* padding-right: 20px; */
-    color: rgb(0, 162, 255);
 }
 
-.bxs-trash{
-/* 
-    position: relative;
-    left: 20%; */
+.bx-task {
+    color: rgb(0, 255, 0);
+    font-size: 25px;
+}
+
+.bxs-trash {
     color: red;
+    font-size: 25px;
 }
 
+.bx-task-x {
 
-.section li:hover{
+    font-size: 25px;
+}
+
+.section li:hover {
     background-color: aqua;
     width: 80%;
     list-style: none;
-    padding: 10px;
-    margin: 10px;
     border: 1px solid #0099CC;
     border-radius: 10px;
-    cursor: pointer;
 }
 
-.section li i{
- font-weight: bold;
- font-size: 30px;
+.section li i {
+    font-weight: bold;
+    font-size: px;
 }
 
 
-.center{
+.center {
     text-align: center;
 }

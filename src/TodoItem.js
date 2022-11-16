@@ -4,12 +4,13 @@ function TodoItem(props) {
 
     return (
         <>
+        {console.log(props)}
            <li>
-           <i class='bx bx-task'></i>
+            {props.num}
+           <button>{props.complete ? <i class='bx bx-task'></i> : <i class='bx bx-task-x'></i>}</button>
+            <span className="item">{props.description}</span>
+            <button><i class='bx bxs-trash'></i></button>
 
-            <span className="item">{props.text}</span>
-            
-            <i class='bx bxs-trash'></i>
            </li>
         </>
     );

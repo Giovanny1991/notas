@@ -6,8 +6,8 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode> Se comenta para que no renderise dos veces el componente
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
